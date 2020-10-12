@@ -1,17 +1,16 @@
-package javaBasicExercisesW3Resources;
+package java.basicExercises.w3Resources;
 
 import java.util.Scanner; //Imports scanner.
 
-public class exercise3 //Main class heading.
+public class exercise7 //Main class heading.
 {
-
 	public static void main(String[] args) //Main method heading.
 	{
 
 		Scanner input = new Scanner(System.in); //Imports scanner.
 
 		int number = 0; //Declares number variable for use within processes.
-		
+
 		System.out.println("What is the number selected?"); //Prompts user's response.
 		number = input.nextInt(); //Sets user's response as the number variable, used for later processes.
 
@@ -19,7 +18,8 @@ public class exercise3 //Main class heading.
 		{
 			System.out.printf("%-10s%-2d%-4s%-3d%-4s%-2d\n", "Answer = ", number, " x ", i, " = ", number * i); //Shows the multiplication of Number "x" i as it increases to 10.
 		}
-		
+
 		input.close(); //Closes scanner.
 	}
 }
+
